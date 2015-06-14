@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/ParentLayout">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/BackgroundLayout"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="150dp">
+
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/BackgroundImage"
+            android:background="@drawable/anatomicalmodel"
+            android:adjustViewBounds="false"
+            android:layout_gravity="right|top" />
+    </FrameLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/EyesButton"
+        android:layout_marginLeft="-140dp"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="false"
+        android:background="@drawable/recbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/ChestButton"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="150dp"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_marginLeft="-170dp"
+        android:background="@drawable/recbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/NeckButton"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="75dp"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/recbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/LegandKneesButton"
+        android:layout_marginTop="440dp"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="260dp"
+        android:background="@drawable/recbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hands"
+        android:id="@+id/HandsButton"
+        android:layout_toStartOf="@+id/BackgroundLayout"
+        android:layout_marginTop="350dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/AbdomenButton"
+        android:layout_marginTop="250dp"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="320dp"
+        android:background="@drawable/recbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/BackButton"
+        android:layout_marginTop="230dp"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_marginLeft="-95dp"
+        android:background="@drawable/recbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/FootButton"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_marginTop="580dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="250dp"
+        android:background="@drawable/recbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thinking and Balance"
+        android:id="@+id/ThinkingandBalanceButton"
+        android:layout_marginStart="200dp"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_marginTop="450dp"
+        android:layout_alignParentStart="false"
+        android:layout_marginRight="0dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nondescript"
+        android:id="@+id/NondescriptButton"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_alignEnd="@+id/ThinkingandBalanceButton"
+        android:layout_marginTop="550dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/SkinButton"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="-30dp"
+        android:background="@drawable/recbutton"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/HairButton"
+        android:layout_toEndOf="@+id/BackgroundLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="285dp"
+        android:background="@drawable/recbutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/DoneButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="1000dp" />
+
+</RelativeLayout>

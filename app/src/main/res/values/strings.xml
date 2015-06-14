@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CDSS_ADR03</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_med_history">MedHistoryActivity</string>
+    <string name="title_activity_adaptive_history">AdaptiveHistoryActivity</string>
+</resources>

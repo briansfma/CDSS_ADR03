@@ -1,0 +1,426 @@
+Condition,Mortality Risk,Symptom,Symptom Relevance,Attribute,History Notes Format,Attribute Relevance,value specific relevance,Value,,1
+Acute Appendicitis,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,2
+,,,,How did the pain start?,_ onset,1,1;2,Sudden;Gradual steadily increase,,3
+,,,,How bad is the pain?,_ pain,1,1;2,Severe;Moderate,,4
+,,,,How long has it been there for?,_ days,1,1,0_3,,5
+,,,,Where is the pain located?,_,1,1;2;3,Lower Right;Middle Center;Upper Center,,6
+,,,,Does the pain move from one place to another?,pain moves _,1,1;2;3,Center Middle->Right Lower;Upper Middle->Right Lower;Right Lower->Right Lower,,7
+,,Temperature,1.1,_,_ ,1.1,1,99_102,,8
+,,Age,1.1,_,_,1.1,1_2_0,0_40_55_150,,9
+,,Pulse,1.1,_,_,1.1,1;0,Higher;Normal,,10
+,,General Examination,1.01,Does patient have coated tongue?,_ Coated tongue,1,Disc,Yes,,11
+,,,,Tenderness location,_ Tenderness,1.1,1,Lower Right,,12
+,,,,Tenderness degree,_ Tender,1.1,1,Extremely,,13
+,,Vomiting,1,_,_ Vomiting,1.1,Disc,Yes,,14
+,,,,Frequency,_ times per day,1,1,0_3,,15
+,,Nausea,1,_,_ Nausea,1.1,Disc,Yes,,16
+,,Loss of Appetite,1,_,_ Loss of Appetite,1.1,1,Yes,,17
+,,External Tests,2.001,FBC,_,1.1,1,Raised WBC,,18
+Acute Mesenteric Lymphadenitis,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,19
+,,,,How did the pain start?,_ onset,1,Disc,Sudden,,20
+,,,,How bad is the pain?,_ pain,1,1;1,Mild;Moderate,,21
+,,,,How long has it been there for?,_ days,1,1,3_30,,22
+,,,,Where is the pain located?,_,1,1,Lower Right,,23
+,,Recent Sore throat,1,_,_sore throat,1.1,1;-0.5,Yes;No,,24
+,,Age,1.1,_,_,1.1,1,0_14,,25
+,,Abdominal Examination,1.01,Tenderness location,_ Tenderness,1.1,1,Right Lower,,26
+,,,,Tenderness degree,_ Tender,1.1,1,Moderate,,27
+Constipation,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,28
+,,,,How did the pain start?,_ onset,1,Disc,Comes and goes but gradually increase each time,,29
+,,,,How bad is the pain?,_ pain,1,1;1,Mild;Moderate,,30
+,,,,How long has it been there for?,_ days,1,1,1_30,,31
+,,,,Where is the pain located?,_,1,1;2;3;3;3,Middle Center;All Over;Lower Left;Middle Left;Upper Left,,32
+,,Constipation,1,_,_ Constipation,1.1,1;0.5,Yes;No,,33
+,,Age,1.1,_,_,1.1,1_0_1,0_18_45_150,,34
+,,Gender,1.1,_,_,2.1,1;0,F;M,,35
+Infective Diarrhoea,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,36
+,,,,How did the pain start?,_ onset,1,Disc,Sudden,,37
+,,,,How bad is the pain?,_ pain,1,1;1,Moderate;Severe,,38
+,,,,How long has it been there for?,_ days,1,1,0_3,,39
+,,,,Where is the pain located?,_,1,1;2;3;3;3,Middle Center;All Over;Lower Left;Middle Left;Upper Left,,40
+,,Vomiting,1,_,_ Vomiting,1.1,1;0,Yes;No,,41
+,,,,Frequency,_ times per day,1,1,3_10,,42
+,,Diarrhoea,1,_,_ diarrhoea,1.1,1;-0.5,Yes;No,,43
+,,,,Frequency,_ times per day,1,1,3_10,,44
+,,,,Does patient have blood in stool?,_ blood in stool,1,1;0,Yes;No,,45
+,,Age,1.1,_,_,1.1,1,0_14,,46
+,,Risk Factor,1.0001,Did the patient recently ate unusual food?,_ ate something unusual,1,1;0,Yes;No,,47
+,,,,Contamination through water,_ Contamination through water,1,1;0,Yes;No,,48
+Worm infestation,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,1;0,Yes;No,,49
+,,,,How did the pain start?,_ onset,1,1,Sudden,,50
+,,,,How bad is the pain?,_ pain,1,1;1,Mild;Severe,,51
+,,,,How long has it been there for?,_ days,1,1,1_365,,52
+,,,,Where is the pain located?,_,1,1;2;3;3,Lower Right;Lower Center;Middle Center;Lower Left,,53
+,,Passage of Worms in stool,2,_,_ passage of worms,1.1,1;0,Yes;No,,54
+,,Age,1.1,_,_,1.1,1_2_0,0_14_45_110,,55
+Urinary Tract Infection,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,56
+,,,,How did the pain start?,_ onset,1,Disc,Gradual steadily increase,,57
+,,,,How bad is the pain?,_ pain,1,1;2,Mild;Moderate,,58
+,,,,How long has it been there for?,_ days,1,1,1_7,,59
+,,,,Where is the pain located?,_,1,1;2,Lower Center;Lower Right,,60
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from back to the front,,61
+,,Painful Urination (Dysuria),1,_,_ Dysuria,1.1,1;0,Yes;No,,62
+,,Bleeding with Stool,1,_,_ blood in urine,1.1,0.5;0,Yes;No,,63
+,,Bleeding with Stool,1,_,_ blood in urine,1.1,1,Yes,,63
+,,Bleeding with Stool,1,_,_ blood in urine,1.1,1;0,"Yes,No",,63
+,,Bleeding with Stool,1,_,_ blood in urine,1.1,1;0,"Yes,No",,63
+,,Frequent Urination,1,_,_ prone to urination,1.1,1;0.5,Yes;No,,64
+,,Age,1.1,_,_,1.1,0_1,0_14_110,,65
+,,Gender,1.1,_,_,1.1,0.5;0,F;M,,66
+Prostate Cancer,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,1;0,Yes;No,,67
+,,,,How did the pain start?,_ onset,1,Disc,Gradual steadily increase,,68
+,,,,How bad is the pain?,_ pain,1,1;2,Mild;Moderate,,69
+,,,,How long has it been there for?,_ days,1,1,1_7,,70
+,,,,Where is the pain located?,_,1,1,Lower Right,,71
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from back to the front,,72
+,,Painful Urination (Dysuria),1,_,_ Dysuria,1.1,1;0,Yes;No,,73
+,,Bleeding with Stool,1,_,_ blood in urine,1.1,0.5;0,Yes;No,,74
+,,Frequent Urination,1,_,_ prone to urination,1.1,1;0,Yes;No,,75
+,,Age,1.1,_,_,1.1,0_1,0_50_110,,76
+,,Gender,1.1,_,_,1.1,1;-0.5,M;F,,77
+,,Temperature,1.1,_,_,1.1,1,102_105,,78
+Stone in Urinary Tract,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,79
+,,,,How did the pain start?,_ onset,1,Disc,Sudden,,80
+,,,,How bad is the pain?,_ pain,1,1;1,Moderate;Severe,,81
+,,,,Where is the pain located?,_,1,1;1,Lower Right;Lower Left,,82
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from the back loin,,83
+,,,,Does the pain radiate?,_,1,1,Yes,,84
+,,Painful Urination (Dysuria),1,_,_ Dysuria,1.1,1,Yes,,85
+Acute Renal Colic,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,87
+,,,,How did the pain start?,_ onset,1,Disc,Sudden,,88
+,,,,How bad is the pain?,_ pain,1,1,Severe,,89
+,,,,Where is the pain located?,_,1,1;1,Lower Right;Lower Left,,90
+,,,,How long has it been there for?,_ days,1,1,0_5,,91
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from the back loin,,92
+,,,,Does the pain radiate?,_,1,1,Yes,,93
+,,,,What's the nature of the pain?,_,1,Disc,wavy,,94
+,,Painful Urination (Dysuria),1,_,_ Dysuria,1.1,1;0,Yes;No,,95
+,,Frequent Urination,1,_,_ prone to urination,1.1,1;0,Yes;No,,97
+Stone in Bladder,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,98
+,,,,How did the pain start?,_ onset,1,Disc,Gradual steadily increase,,99
+,,,,How bad is the pain?,_ pain,1,1;1,Mild;Moderate,,100
+,,,,How long has it been there for?,_ days,1,1,0_5,,101
+,,,,Where is the pain located?,_,1,1,Lower Center,,102
+,,,,Does the pain move from one place to another?,pain moves _,1,1,No,,103
+,,,,What's the nature of the pain?,_,1,Disc,Continuous,,104
+,,Frequent Urination,1,_,_ prone to urination,1.1,1,Yes,,105
+,,Painful Urination (Dysuria),1,_,_ Dysuria,1.1,1,Yes,,106
+Acute Hepatitis,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,108
+,,,,How did the pain start?,_ onset,1,Cont,Gradual steadily increase,,109
+,,,,How bad is the pain?,_ pain,1,Disc,Mild,,110
+,,,,How long has it been there for?,_ days,1,1,4_7,,111
+,,,,What's the nature of the pain?,_,1,Cont,Continuous,,112
+,,,,Where is the pain located?,_,1,1;1,Upper Center;Upper Right,,113
+,,Age,1.1,_,_,1.1,1_2_0,0_25_50_110,,114
+,,Risk Factor,1.0001,Did the patient have a history of Jaundice,_ H/O of jaundice,1,1;0,Yes;No,,115
+,,,,Alcohol,_ alcohol,1.1,1;0,Yes;No,,116
+,,Yellowing discoloration of urine,1,_,_ yellow discoloration of urine,1.1,1,Yes,,117
+,,Weakness,1,_,_ Weakness,1.1,1,Yes,,118
+,,Temperature,1.1,_,_,1.1,1,99_100,,119
+,,External Tests,1.001,billyribbon,_,1.1,1,Higher,,120
+Food poisoning,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,1,Yes,,121
+,,,,How did the pain start?,_ onset,1,1,Sudden,,122
+,,,,How bad is the pain?,_ pain,1,1;1,Moderate;Severe,,123
+,,,,How long has it been there for?,_ days,1,1,0_1,,124
+,,,,Where is the pain located?,_,1,1,All Over,,125
+,,Risk Factor,1.0001,Did the patient recently ate unusual food?,_ ate something unusual,1,1;0,Yes;No,,126
+,,Diarrhoea,1,_,_ diarrhoea,1.1,1;0,Yes;No,,127
+,,,,How did the it start?,_ onset,1,1,Sudden,,128
+,,,,Frequency,_ times per day,1,1,3_10,,129
+,,Vomiting,1,_,_ Vomiting,1.1,1,Yes,,130
+,,Nausea,1,_,_ Nausea,1.1,1,Yes,,131
+,,Temperature,1.1,_,_,1.1,1,99_102,,132
+Ruptured Ectopic Pregnancy,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,1,Yes,,133
+,,,,How did the pain start?,_ onset,1,Disc,Sudden,,134
+,,,,How bad is the pain?,_ pain,1,Disc,Severe,,135
+,,,,Where is the pain located?,_,1,1;2;2,Lower Center;Lower Right;Lower Left,,136
+,,,,Did the patient collapse/faint,_faint at pain onset,1,2;0,Yes;No,,137
+,,Age,1.1,_,_,1.1,0_1_2_0,0_16_35_40_110,,138
+,,Gender,1.1,_,_,1.1,1;-0.5,F;M,,139
+,,Menstrual Cycle,1,Date of Last Menstrual Period,date of last missed period: _,1,Date,Choose Date~,,140
+,,,,Did the patient miss her period?,Pt reported _ missing last period,1,2;0,Yes;No,,141
+Twisted Overian Cyst,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,142
+,,,,How did the pain start?,_ onset,1,Disc,Sudden,,143
+,,,,How bad is the pain?,_ pain,1,1;1,Moderate;Severe,,144
+,,,,Where is the pain located?,_,1,1;1,Middle Center;Lower Center,,145
+,,Age,1.1,_,_,1.1,0_1_2,0_25_45_110,,146
+,,Gender,0.5,_,_,1.1,1;-0.5,F;M,,147
+,,Vomiting,1,_,_ Vomiting,1.1,1;0,Yes;No,,148
+,,,,Frequency,_ times per day,1,1,0_3,,149
+,,Abdominal Examination,1.01,lump?,felt _ lump,1.1,3;0,Yes;No,,150
+,,External Tests,1.001,USG,USG recommended,1.1,_,_,,151
+,,,,X-Ray,X-Ray recommended,1.1,_,_,,152
+Intestinal Obstruction,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,1,Yes,,153
+,,,,How bad is the pain?,_ pain,1,1;1,Moderate;Severe,,154
+,,,,Where is the pain located?,_,1,1;1;1,Middle Center;Lower Center;All Over,,155
+,,,,How long has it been there for?,_ days,1,1,0_7,,156
+,,,,What's the nature of the pain?,_ comes and goes,1,1,wavy,,157
+,,Age,1.1,_,_,1.1,0_1_1_0,0_35_50_70_150,,158
+,,Gender,2.1,_,_,2.1,2;0,M;F,,159
+,,Vomiting,1,_,_ Vomiting,1.1,Disc,Yes,,160
+,,,,Frequency,_ times per day,1,1,3_10,,161
+,,Risk Factor,1.0001,Operation,_ operation,1.1,1;0,Yes;No,,162
+,,Inability to pass flatus,0.5,_,_ pass flatus,1.1,1,Yes,,163
+,,Constipation,0.5,_,_ Constipation,1.1,1,Yes,,164
+,,External Tests,1.001,X-Ray & CT,X-Ray recommended,1.1,_,_,,165
+,,Abdominal Examination,1.01,Swelling,_ Swelling,1.1,1;0,Yes;No,,166
+,,,,stomach sound,_,1.1,1,Different sound,,167
+Fibroid of Uterus,1,Abdominal Pain,2,_,_ Abdominal Pain:,1.1,2;0,Yes;No,,168
+,,,,How did the pain start?,_ onset,2,Disc,Sudden,,169
+,,,,How bad is the pain?,_ pain,1,1;2,Mild;Severe,,170
+,,,,Where is the pain located?,_,1,1;1;2;2,Lower Right;Lower Left;Lower Center;Middle Center,,171
+,,Age,1.1,_,_,1.1,1,14_40,,172
+,,Gender,0.5,_,_,1.1,1;-0.25,F;M,,173
+,,Vomiting,1,_,_ Vomiting,1.1,Disc,Yes,,174
+,,,,Frequency,_ times per day,1,1,0_3,,175
+,,Nausea,1,_,_ Nausea,1.1,Disc,Yes,,176
+,,Abdominal Examination,1.01,lump?,felt _ lump,1.1,1,Yes,,177
+,,External Tests,1.001,USG,USG recommended,1.1,_,_,,178
+,,,,X-Ray,X-Ray recommended,1.1,_,_,,179
+,,Menstrual Irregularities,1,_,_ Irregular menstruals,1.1,1,Yes,,180
+,,,,Are there excessive bleeding,_ Excessive bleeding,1,1,Yes,,181
+,,,,Infrequent,_ Infrequent,1,1,Yes,,182
+,,,,Is the patient's menstrual cycles irregular?,_ Irregular menstruals,1,1,Yes,,183
+,,,,Are there pain during coitus?,_ pain during coitus,1,1,Yes,,184
+,,,,Vaginal discharge,_Vaginal discharge,1,1,Yes,,185
+Pelvic inflammatory disease,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,1;0,Yes;No,,186
+,,,,How did the pain start?,_ onset,1,Disc,Sudden,,187
+,,,,How bad is the pain?,_ pain,1,1;1,Mild;Moderate,,188
+,,,,Where is the pain located?,_,1,1;1;1,Lower Right;Lower Left;Lower Center,,189
+,,,,How long has it been there for?,_ days,1,1,0_365,,190
+,,Age,1.1,_,_,1.1,1,14_40,,191
+,,Gender,0.5,_,_,1.1,1;-0.5,F;M,,192
+,,Abdominal Examination,1.01,lump?,felt _ lump,0.5,1,No,,193
+,,Menstrual Irregularities,1,_,_ Irregular menstruals,1.1,1;0,Yes;No,,194
+,,,,Are there excessive bleeding,_ Excessive bleeding,1,1,Yes,,195
+,,,,Infrequent,_ Infrequenct,1,1,Yes,,196
+,,,,Is the patient's menstrual cycles irregular?,_ Irregular menstruals,1,1,Yes,,197
+,,,,Are there pain during coitus?,_ pain during coitus,1,1,Yes,,198
+,,Abnormal Vaginal Discharge,1,_,_ abnormal vaginal discharge,1.1,1;0,Yes;No,,199
+Abdomen Trauma,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,200
+,,,,How bad is the pain?,_ pain,1,Disc,Severe,,201
+,,,,Where is the pain located?,_,1,Cont,All Over,,202
+,,Risk Factor,1.0001,Did the patient have a previous injury to stomach?,_ H/O of previous injury to stomach,1,1;0,Yes;No,,203
+,,Abdominal Examination,1.01,Are there bruising?,_bruising,1.1,1,Yes,,204
+,,,,tendernes,_ tenderness,1,1;0,Yes;No,,205
+,,Pulse,1.1,_,_,1.1,1;0,High;Normal,,206
+,,BP,1.1,_,_,1.1,1;0,High;Normal,,207
+Acute Pancreatitis,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,208
+,,,,How bad is the pain?,_ pain,1,1,Severe,,209
+,,,,Where is the pain located?,_,1,1;1,Upper Center;Middle Center,,210
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from front to middle back,,211
+,,,,What's the nature of the pain?,_,1,Disc,Continuous,,212
+,,,,How long has it been there for?,_ days,1,1,0_7,,213
+,,,,What exacerbate pain?,_ makes the pain worse,1,&;1;1,lying down;jarring of stomach,,214
+,,,,What relieves the pain?,_ relieves pain,1,Disc,sittig up and hunching forward,,215
+,,Age,1.1,_,_,1.1,0_1_0,0_25_50_150,,216
+,,Vomiting,1,_,_ Vomiting,1.1,1;0,Yes;No,,217
+,,,,Frequency,_ times per day,1,1,0_10,,218
+,,Gender,2.1,_,_,2.1,2;0,M;F,,219
+,,Pulse,1.1,_,_,1.1,1;0,High;Normal,,220
+,,Temperature,1.1,_,_,1.1,1,96_99,,221
+,,Abdominal Examination,1.01,Tenderness location,_ Tenderness,1.1,1;1,Upper Center;Middle Center,,222
+,,Indigestion/Dyspepsia,1,_,_ Dyspepsia,1.1,1;-2,No;Yes,,223
+,,Risk Factor,1.0001,Is the patient taking Medication?,_ taking medication,1,1;0,Yes;No,,224
+,,,,Alcohol,_ alcohol,1.1,1,Yes,,225
+,,,,Does the patient have a history of jaundice?,_ H/O of jaundice,1,1;0,Yes;No,,226
+Acute Cholecystitis,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,227
+,,,,How did the pain start?,_ onset,1,1;1,Gradual steadily increase;Comes and goes but gradually increase each time,,228
+,,,,How bad is the pain?,_ pain,1,1,Severe,,229
+,,,,Where is the pain located?,_,1,1;1,Upper Center;Upper Right,,230
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from front to right back,,231
+,,,,What's the nature of the pain?,_,1,1;-1,wavy;Continuous,,232
+,,,,How long has it been there for?,_ days,1,1,0_7,,233
+,,,,What exacerbate pain?,_ makes the pain worse,1,&;1;0,food;jarring of abdomen,,234
+,,,,What relieves the pain?,_ relieves pain,1,disc,vomiting,,235
+,,Age,1.1,_,_,1.1,0_1_0,0_25_50_150,,236
+,,Vomiting,1,_,_ Vomiting,1.1,1;-2,Yes;No,,237
+,,,,Frequency,_ times per day,1,1,0_10,,238
+,,Gender,2.1,_,_,2.1,2,F,,239
+,,Pulse,1.1,_,_,1.1,1;0,High;Normal,,240
+,,Temperature,1.1,_,_,1.1,1,99_102,,241
+,,Abdominal Examination,1.01,Tenderness location,_ Tenderness,1.1,1;2;3,Upper Center;Upper Left;Upper Right,,242
+,,,,lump?,_ Tender,1.1,1;0,Yes;No,,243
+,,Indigestion/Dyspepsia,1,_,_ Dyspepsia,1.1,1;-2,Yes;No,,244
+,,Risk Factor,1.0001,Does the patient have a history of jaundice?,_ H/O of jaundice,1,1;0,Yes;No,,245
+Acute Peptic Ulcer Syndrome,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,246
+,,,,How bad is the pain?,_ pain,1,1,Moderate,,247
+,,,,Where is the pain located?,_,1,1,Upper Center,,248
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from front to right back,,249
+,,,,What's the nature of the pain?,_,1,1,Continuous,,250
+,,,,How long has it been there for?,_ days,1,1,0_7,,251
+,,,,What exacerbate pain?,_ makes the pain worse,1,&;1;0,Empty stomach;full stomach,,252
+,,,,What relieves the pain?,_ relieves pain,1,disc,full stomach,,253
+,,Age,1.1,_,_,1.1,0_1_0,0_25_50_150,,254
+,,Vomiting,1,_,_ Vomiting,1.1,1;-2,Yes;No,,255
+,,,,Frequency,_ times per day,1,1,0_10,,256
+,,,,Is there blood in the vomit?,_ blood in vomit,1,1,Yes,,257
+,,Gender,2.1,_,_,2.1,2;0,M;F,,258
+,,Temperature,2.1,_,_,2.1,0_1,0_99_113,,259
+,,Abdominal Examination,1.01,Tenderness location,_ Tenderness,1.1,1,Upper Center,,260
+,,,,Tenderness degree,_ Tender,1.1,1;1;1,Mild;Moderate;Severe,,261
+,,Indigestion/Dyspepsia,1,_,_ Dyspepsia,1.1,1,Yes,,262
+,,Stool Color,1,What is the color of patient's stool?,_ Stool,1,1,Dark,,263
+,,Risk Factor,1.0001,Smoking,_ smoking,1.1,1;0,Yes;No,,264
+,,,,Alcohol,_ alcohol,1.1,1;0,Yes;No,,265
+,,,,Does patient drink alcohol on an empty stomach?,_ drinking alcohol on empty stomach,1,1;0,Yes;No,,266
+,,,,Does patient eat a lot of spicy and salty food,_ eat a lot of spicy and salty food,1,1;0,Yes;No,,267
+Gastro Esophageal Reflux Diseasë,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,268
+,,,,How did the pain start?,_ onset,1,1;1,Gradual steadily increase;Comes and goes but gradually increase each time,,269
+,,,,How bad is the pain?,_ pain,1,1,Moderate,,270
+,,,,Where is the pain located?,_,1,1,Upper Center,,271
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from front to right back,,272
+,,,,What's the nature of the pain?,_,1,1,Continuous,,273
+,,,,How long has it been there for?,_ days,1,1,0_7,,274
+,,,,What exacerbate pain?,_ makes the pain worse,1,&;1;0,food;no food,,275
+,,Age,1.1,_,_,1.1,0_1_0,0_25_50_150,,276
+,,Vomiting,1,_,_ Vomiting,1.1,1;-2,No;Yes,,277
+,,Temperature,1.1,_,_,1.1,1,97_100,,278
+,,Abdominal Examination,1.01,Tenderness?,_ Tenderness,1.1,1,No,,279
+,,Indigestion/Dyspepsia,1,_,_ Dyspepsia,1.1,1,Yes,,280
+,,Risk Factor,1.0001,Alcohol,_ alcohol,1.1,1;0,Yes;No,,281
+Chronic Pancreatitis,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,282
+,,,,How bad is the pain?,_ pain,1,1;1,Mild;Moderate,,283
+,,,,Where is the pain located?,_,1,1;1,Upper Center;Middle Center,,284
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from front to middle back,,285
+,,,,What's the nature of the pain?,_,1,Disc,Continuous,,286
+,,,,How long has it been there for?,_ days,1,1,7_365,,287
+,,,,What exacerbate pain?,_ makes the pain worse,1,&;1;1,lying down;jarring of stomach,,288
+,,,,What relieves the pain?,_ relieves pain,1,Disc,sittig up and hunching forward,,289
+,,Age,1.1,_,_,1.1,0_1_0,0_25_50_150,,290
+,,Vomiting,1,_,_ Vomiting,1.1,1;0,Yes;No,,291
+,,,,Frequency,_ times per day,1,1,0_10,,292
+,,Gender,2.1,_,_,2.1,2,M,,293
+,,Pulse,1.1,_,_,1.1,1;0,High;Normal,,294
+,,Temperature,1.1,_,_,1.1,1,97_99,,295
+,,Abdominal Examination,1.01,Tenderness location,_ Tenderness,1.1,1,Middle Center;Middle Left,,296
+,,Indigestion/Dyspepsia,1,_,_ Dyspepsia,1.1,1;-2,No;Yes,,297
+,,Risk Factor,1.0001,Is the patient taking Medication?,_ taking medication,1,1;0,Yes;No,,298
+,,,,Alcohol,_ alcohol,1.1,1,Yes,,299
+,,,,Does the patient have a history of jaundice?,_ H/O of jaundice,1,1;0,Yes;No,,300
+Chronic Cholecystitis,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,301
+,,,,How did the pain start?,_ onset,1,1;1,Gradual steadily increase;Comes and goes but gradually increase each time,,302
+,,,,How bad is the pain?,_ pain,1,1;1,Mild;Moderate,,303
+,,,,Where is the pain located?,_,1,1;1,Upper Center;Upper Right,,304
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from front to right back,,305
+,,,,What's the nature of the pain?,_,1,1;-1,wavy;Continuous,,306
+,,,,How long has it been there for?,_ days,1,1,7_365,,307
+,,,,What exacerbate pain?,_ makes the pain worse,1,&;1;0,food;jarring of abdomen,,308
+,,,,What relieves the pain?,_ relieves pain,1,disc,vomiting,,309
+,,Age,1.1,_,_,1.1,0_1_0,0_25_50_150,,310
+,,Vomiting,1,_,_ Vomiting,1.1,1;-2,Yes;No,,311
+,,,,Frequency,_ times per day,1,1,0_10,,312
+,,Gender,2.1,_,_,2.1,2,F,,313
+,,Pulse,1.1,_,_,1.1,1;0,High;Normal,,314
+,,Temperature,1.1,_,_,1.1,1,99_102,,315
+,,Abdominal Examination,1.01,Tenderness location,_ Tenderness,1.1,1,Upper Center;Upper Left;Upper Right,,316
+,,,,lump?,_ Tender,1.1,1;0,Yes;No,,317
+,,Indigestion/Dyspepsia,1,_,_ Dyspepsia,1.1,1;-2,Yes;No,,318
+,,Risk Factor,1.0001,Does the patient have a history of jaundice?,_ H/O of jaundice,1,1;0,Yes;No,,319
+Chronic Peptic Ulcer Syndrome,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,320
+,,,,How bad is the pain?,_ pain,1,1,Mild,,321
+,,,,Where is the pain located?,_,1,1,Upper Center,,322
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from front to right back,,323
+,,,,What's the nature of the pain?,_,1,1,Continuous,,324
+,,,,How long has it been there for?,_ days,1,1,7_365,,325
+,,,,What exacerbate pain?,_ makes the pain worse,1,1,Empty stomach,,326
+,,,,What relieves the pain?,_ relieves pain,1,disc,full stomach,,327
+,,Age,1.1,_,_,1.1,0_1_0,0_25_50_150,,328
+,,Vomiting,1,_,_ Vomiting,1.1,1;-2,Yes;No,,329
+,,,,Frequency,_ times per day,1,1,0_10,,330
+,,,,Is there blood in the vomit?,_ blood in vomit,1,1,Yes,,331
+,,Gender,2.1,_,_,2.1,2;0,M;F,,332
+,,Temperature,2.1,_,_,2.1,0_1,0_99_114,,333
+,,Abdominal Examination,1.01,Tenderness location,_ Tenderness,1.1,1,Upper Center,,334
+,,,,Tenderness degree,_ Tender,1.1,1;1;1,Mild;Moderate;Severe,,335
+,,Indigestion/Dyspepsia,1,_,_ Dyspepsia,1.1,1,Yes,,336
+,,Stool Color,1,What is the color of patient's stool?,_ Stool,1,1,Black,,337
+,,Risk Factor,1.0001,Smoking,_ smoking,1.1,1;0,Yes;No,,338
+,,,,Alcohol,_ alcohol,1.1,1;0,Yes;No,,339
+,,,,Does patient drink alcohol on an empty stomach?,_ drinking alcohol on empty stomach,1,1;0,Yes;No,,340
+,,,,Does patient eat a lot of spicy and salty food,_ eat a lot of spicy and salty food,1,1;0,Yes;No,,341
+Gastro Esophageal Reflux Diseasë (Chronic),1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,342
+,,,,How did the pain start?,_ onset,1,1;1,Gradual steadily increase;Comes and goes but gradually increase each time,,343
+,,,,How bad is the pain?,_ pain,1,1,Mild,,344
+,,,,Where is the pain located?,_,1,1,Upper Center,,345
+,,,,Does the pain move from one place to another?,pain moves _,1,1,from front to right back,,346
+,,,,What's the nature of the pain?,_,1,1,Continuous,,347
+,,,,How long has it been there for?,_ days,1,1,7_365,,348
+,,,,What exacerbate pain?,_ makes the pain worse,1,1,food,,349
+,,Age,1.1,_,_,1.1,0_1_0,0_25_50_150,,350
+,,Vomiting,1,_,_ Vomiting,1.1,1;-2,No;Yes,,351
+,,Temperature,1.1,_,_,1.1,1,97_100,,352
+,,Abdominal Examination,1.01,Tenderness?,_ Tenderness,1.1,1,No,,353
+,,Indigestion/Dyspepsia,1,_,_ Dyspepsia,1.1,1,Yes,,354
+,,Risk Factor,1.0001,Alcohol,_ alcohol,1.1,1;0,Yes;No,,355
+Embilical hernia,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,356
+,,,,Where is the pain located?,_,1,1;1;1,Middle Center;Lower Right;Lower Left,,357
+,,,,How did the pain start?,_ onset,1,Disc,Sudden,,358
+,,,,How long has it been there for?,_ days,1,1,0_5,,359
+,,,,How bad is the pain?,_ pain,1,1;1,Moderate;Severe,,360
+,,Abdominal Examination,1.01,Is there swollen in the groin region?,_ swollen in groin area,1.1,1;0,Yes;No,,361
+,,Risk Factor,1.0001,Operation,_ operation,1.1,1;0,Yes;No,,362
+,,Gender,1.1,_,_,1.1,1;0,F;M,,363
+Intestinal TB,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,364
+,,,,How long has it been there for?,_ days,1,1,7_365,,365
+,,,,How bad is the pain?,_ pain,1,1,Mild,,366
+,,Temperature,1.1,_,_,1.1,1,97_100,,367
+,,Loss of Weight,1,_,_ Loss of Weight,1.1,1,Yes,,368
+,,Loss of Appetite,1,_,_ Loss of Appetite,1.1,1,Yes,,369
+Intestinal malignancy,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,370
+,,,,How long has it been there for?,_ days,1,1,7_365,,371
+,,,,How bad is the pain?,_ pain,1,1,Mild,,372
+,,Temperature,1.1,_,_,1.1,1,97_100,,373
+,,Loss of Weight,1,_,_ Loss of Weight,1.1,1,Yes,,374
+,,Loss of Appetite,1,_,_ Loss of Appetite,1.1,1,Yes,,375
+,,Diarrhoea,1,_,_ diarrhoea,1.1,1;0,Yes;No,,376
+,,Stool Color,1,What is the color of patient's stool?,_ Stool,1,1,Reddish black,,377
+Intestinal bleeding,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,378
+,,,,How long has it been there for?,_ days,1,1,7_365,,379
+,,,,How bad is the pain?,_ pain,1,1,Mild,,380
+,,Temperature,1.1,_,_,1.1,1,97_100,,381
+,,Loss of Weight,1,_,_ Loss of Weight,1.1,1,Yes,,382
+,,Loss of Appetite,1,_,_ Loss of Appetite,1.1,1,Yes,,383
+,,Stool Color,1,What is the color of patient's stool?,_ Stool,1,1,Black,,384
+,,Bleeding with Stool,1,_,_ blood in stool,1.1,1,Yes,,385
+,,Vomiting,1,_,_ Vomiting,1.1,1,Yes,,386
+,,,,Does patient have blood in vomit?,_ Blood in vomit,1,1,Yes,,387
+Malabsorption syndrome,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,388
+,,,,How long has it been there for?,_ days,1,1,7_365,,389
+,,,,How bad is the pain?,_ pain,1,1,Mild,,390
+,,Temperature,1.1,_,_,1.1,1,0_99,,391
+,,Loss of Weight,1,_,_ Loss of Weight,1.1,1,Yes,,392
+,,Loss of Appetite,1,_,_ Loss of Appetite,1.1,1,Yes,,393
+,,Stool Color,1,What is the color of patient's stool?,_ Stool,1,1,Black,,394
+,,Bleeding with Stool,1,_,_ blood in stool,1.1,1,Yes,,395
+,,Vomiting,1,_,_ Vomiting,1.1,1,Yes,,396
+,,,,Does patient have blood in vomit?,_ Blood in vomit,1,1,Yes,,397
+,,Diarrhoea,1,_,_ diarrhoea,1.1,1;0,Yes;No,,398
+,,,,How long has it been there for?,_ days,1,1,7_365,,399
+,,,,How often does it occur?,occurs _ly,1,1,Intermittent,,400
+Inflammatory Disease (Crohn's),1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,401
+,,,,How long has it been there for?,_ days,1,1,7_365,,402
+,,,,How bad is the pain?,_ pain,1,1,Mild,,403
+,,Loss of Weight,1,_,_ Loss of Weight,1.1,1,Yes,,404
+,,Loss of Appetite,1,_,_ Loss of Appetite,1.1,1,Yes,,405
+,,Bleeding with Stool,1,_,_ blood in stool,1.1,1,Yes,,406
+,,Diarrhoea,1,_,_ diarrhoea,1.1,1;0,Yes;No,,407
+Irritable bowel syndrome,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,408
+,,,,How long has it been there for?,_ days,1,1,7_365,,409
+,,,,How bad is the pain?,_ pain,1,1,Mild,,410
+,,,,Where is the pain located?,_,1,1;1;1,Upper Left;Middle Left;Lower Left,,411
+,,Loss of Weight,1,_,_ Loss of Weight,1.1,1,Yes,,412
+,,Loss of Appetite,1,_,_ Loss of Appetite,1.1,1,Yes,,413
+,,Bleeding with Stool,1,_,_ blood in stool,1.1,1,Yes,,414
+,,Diarrhoea,1,_,_ diarrhoea,1.1,1;0,Yes;No,,415
+,,Irregular Bowel Movement,1,_,_ Irregular Bowel Movement,1.1,1,Yes,,416
+Diverticulitis,1,Abdominal Pain,1,_,_ Abdominal Pain:,1.1,Disc,Yes,,417
+,,,,How long has it been there for?,_ days,1,1,7_365,,418
+,,,,How bad is the pain?,_ pain,1,1,Mild,,419
+,,,,Where is the pain located?,_,1,1;1;1,Upper Left;Middle Left;Lower Left,,420
+,,Loss of Weight,1,_,_ Loss of Weight,1.1,1,Yes,,421
+,,Loss of Appetite,1,_,_ Loss of Appetite,1.1,1,Yes,,422
+,,Bleeding with Stool,1,_,_ blood in stool,1.1,1,Yes,,423
+,,Diarrhoea,1,_,_ diarrhoea,1.1,1;0,Yes;No,,424
+,,Bowel Movement,1,_,_ Bowel Movement,1.1,1,Yes,,425
+,,,,How often do you go?,_ times per day,1,1,0_10,,426

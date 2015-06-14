@@ -1,0 +1,372 @@
+Complaint,Fixed questions (Set 1),History Note format,Possible answers,,1
+Head Pain,Where is the pain located?,_,Front of Head,,2
+,,,Back of Head,,3
+,,,Whole head,,4
+,How bad is the pain?,_,Severe,,5
+,,,Moderate,,6
+,,,Mild,,7
+,,,Sometimes not so bad/sometimes bad,,8
+,How did the pain start?,_ onset,Sudden,,9
+,,,Gradual steadily increase,,10
+,,,Comes and goes but gradually increase each time,,11
+,,,Do not remember,,12
+,How long has it been there for?,_ days,_days,,13
+Ear Pain,Where is the pain located?,_,Right,,14
+,,,Left,,15
+,,,Both,,16
+,How bad is the pain?,_,Severe,,17
+,,,Moderate,,18
+,,,Mild,,19
+,,,Sometimes not so bad/sometimes bad,,20
+,How did the pain start?,_ onset,Sudden,,21
+,,,Gradual steadily increase,,22
+,,,Comes and goes but gradually increase each time,,23
+,,,Do not remember,,24
+,How long has it been there for?,_ days,_days,,25
+Teeth Pain,How bad is the pain?,_,Severe,,26
+,,,Moderate,,27
+,,,Mild,,28
+,,,Sometimes not so bad/sometimes bad,,29
+,How did the pain start?,_ onset,Sudden,,30
+,,,Gradual steadily increase,,31
+,,,Comes and goes but gradually increase each time,,32
+,,,Do not remember,,33
+,How long has it been there for?,_ days,_days,,34
+Jaw Pain,Where is the pain located?,_,Right,,35
+,,,Left,,36
+,,,Both,,37
+,How bad is the pain?,_,Severe,,38
+,,,Moderate,,39
+,,,Mild,,40
+,,,Sometimes not so bad/sometimes bad,,41
+,How did the pain start?,_ onset,Sudden,,42
+,,,Gradual steadily increase,,43
+,,,Comes and goes but gradually increase each time,,44
+,,,Do not remember,,45
+,How long has it been there for?,_ days,_days,,46
+Neck Pain,How bad is the pain?,_,Severe,,47
+,,,Moderate,,48
+,,,Mild,,49
+,,,Sometimes not so bad/sometimes bad,,50
+,How did the pain start?,_ onset,Sudden,,51
+,,,Gradual steadily increase,,52
+,,,Comes and goes but gradually increase each time,,53
+,,,Do not remember,,54
+,How long has it been there for?,_ days,_days,,55
+Throat Pain,How bad is the pain?,_,Severe,,56
+,,,Moderate,,57
+,,,Mild,,58
+,,,Sometimes not so bad/sometimes bad,,59
+,How did the pain start?,_ onset,Sudden,,60
+,,,Gradual steadily increase,,61
+,,,Comes and goes but gradually increase each time,,62
+,,,Do not remember,,63
+,How long has it been there for?,_ days,_days,,64
+Back Pain,Where is the pain located?,_,Upper,,65
+,,,Lower,,66
+,,,Both,,67
+,How bad is the pain?,_,Severe,,68
+,,,Moderate,,69
+,,,Mild,,70
+,,,Sometimes not so bad/sometimes bad,,71
+,How did the pain start?,_ onset,Sudden,,72
+,,,Gradual steadily increase,,73
+,,,Comes and goes but gradually increase each time,,74
+,,,Do not remember,,75
+,How long has it been there for?,_ days,_days,,76
+Joint Pain,Where is the pain located?,_,Shoulder,,77
+,,,Wrist,,78
+,,,Fingers,,79
+,How bad is the pain?,_,Severe,,80
+,,,Moderate,,81
+,,,Mild,,82
+,,,Sometimes not so bad/sometimes bad,,83
+,How did the pain start?,_ onset,Sudden,,84
+,,,Gradual steadily increase,,85
+,,,Comes and goes but gradually increase each time,,86
+,,,Do not remember,,87
+,How long has it been there for?,_ days,_days,,88
+Arm Pain,Where is the pain located?,_,Arm,,89
+,,,Forearm,,90
+,,,Fingers,,91
+,How bad is the pain?,_,Severe,,92
+,,,Moderate,,93
+,,,Mild,,94
+,,,Sometimes not so bad/sometimes bad,,95
+,How did the pain start?,_ onset,Sudden,,96
+,,,Gradual steadily increase,,97
+,,,Comes and goes but gradually increase each time,,98
+,,,Do not remember,,99
+,How long has it been there for?,_ days,_days,,100
+Leg Pain,Where is the pain located?,_,Thigh,,101
+,,,Leg,,102
+,,,Foot,,103
+,How bad is the pain?,_,Severe,,104
+,,,Moderate,,105
+,,,Mild,,106
+,,,Sometimes not so bad/sometimes bad,,107
+,How did the pain start?,_ onset,Sudden,,108
+,,,Gradual steadily increase,,109
+,,,Comes and goes but gradually increase each time,,110
+,,,Do not remember,,111
+,How long has it been there for?,_ days,_days,,112
+Chest Pain,Where is the pain located?,_,Right,,113
+,,,Left,,114
+,,,Both,,115
+,How bad is the pain?,_,Severe,,116
+,,,Moderate,,117
+,,,Mild,,118
+,,,Sometimes not so bad/sometimes bad,,119
+,How did the pain start?,_ onset,Sudden,,120
+,,,Gradual steadily increase,,121
+,,,Comes and goes but gradually increase each time,,122
+,,,Do not remember,,123
+,How long has it been there for?,_ days,_days,,124
+Abdominal Pain,Where is the pain located?,_,Upper Right,,125
+,,,Upper Center,,126
+,,,Upper Left,,127
+,,,Middle Right,,128
+,,,Middle Center,,129
+,,,Middle Left,,130
+,,,Lower Right,,131
+,,,Lower Center,,132
+,,,Lower Left,,133
+,,,All Over,,134
+,How bad is the pain?,_,Severe,,135
+,,,Moderate,,136
+,,,Mild,,137
+,,,Sometimes not so bad/sometimes bad,,138
+,How did the pain start?,_ onset,Sudden,,139
+,,,Gradual steadily increase,,140
+,,,Comes and goes but gradually increase each time,,141
+,,,Do not remember,,142
+,How long has it been there for?,_ days,_days,,143
+Breast Pain,Where is the pain located?,_,Right,,144
+,,,Left,,145
+,,,Both,,146
+,How bad is the pain?,_,Severe,,147
+,,,Moderate,,148
+,,,Mild,,149
+,,,Sometimes not so bad/sometimes bad,,150
+,How did the pain start?,_ onset,Sudden,,151
+,,,Gradual steadily increase,,152
+,,,Comes and goes but gradually increase each time,,153
+,,,Do not remember,,154
+,How long has it been there for?,_ days,_days,,155
+Scrotal Pain,Where is the pain located?,_,Right,,156
+,,,Left,,157
+,,,Both,,158
+,How bad is the pain?,_,Severe,,159
+,,,Moderate,,160
+,,,Mild,,161
+,,,Sometimes not so bad/sometimes bad,,162
+,How did the pain start?,_ onset,Sudden,,163
+,,,Gradual steadily increase,,164
+,,,Comes and goes but gradually increase each time,,165
+,,,Do not remember,,166
+,How long has it been there for?,_ days,_days,,167
+Painful Urination (Dysuria),How bad is the pain?,_,Severe,,168
+,,,Moderate,,169
+,,,Mild,,170
+,,,Sometimes not so bad/sometimes bad,,171
+,How did the pain start?,_ onset,Sudden,,172
+,,,Gradual steadily increase,,173
+,,,Comes and goes but gradually increase each time,,174
+,,,Do not remember,,175
+,How long has it been there for?,_ days,_days,,176
+Head Swelling,Where is the swelling located?,_,Front of Head,,186
+,,,Back of Head,,187
+,,,Whole head,,188
+,What is the size of swelling?,_,_describe,,189
+,How has the swelling changed?,_ ,Remains the same,,190
+,,,Increasing,,191
+,,,Decreasing,,192
+,How long has it been there for?,_ days,_days,,193
+Ear Swelling,Where is the swelling located?,_,Right,,194
+,,,Left,,195
+,,,Both,,196
+,What is the size of swelling?,_,_describe,,197
+,How has the swelling changed?,_ ,Remains the same,,198
+,,,Increasing,,199
+,,,Decreasing,,200
+,How long has it been there for?,_ days,_days,,201
+Teeth Swelling,What is the size of swelling?,_,_describe,,202
+,How has the swelling changed?,_ ,Remains the same,,203
+,,,Increasing,,204
+,,,Decreasing,,205
+,How long has it been there for?,_ days,_days,,206
+Jaw Swelling,Where is the swelling located?,_,Right,,207
+,,,Left,,208
+,,,Both,,209
+,What is the size of swelling?,_,_describe,,210
+,How has the swelling changed?,_ ,Remains the same,,211
+,,,Increasing,,212
+,,,Decreasing,,213
+,How long has it been there for?,_ days,_days,,214
+Neck Swelling,What is the size of swelling?,_,_describe,,215
+,How has the swelling changed?,_ ,Remains the same,,216
+,,,Increasing,,217
+,,,Decreasing,,218
+,How long has it been there for?,_ days,_days,,219
+Throat Swelling,What is the size of swelling?,_,_describe,,220
+,How has the swelling changed?,_ ,Remains the same,,221
+,,,Increasing,,222
+,,,Decreasing,,223
+,How long has it been there for?,_ days,_days,,224
+Back Swelling,Where is the swelling located?,_,Upper,,225
+,,,Lower,,226
+,,,Both,,227
+,What is the size of swelling?,_,_describe,,228
+,How has the swelling changed?,_ ,Remains the same,,229
+,,,Increasing,,230
+,,,Decreasing,,231
+,How long has it been there for?,_ days,_days,,232
+Joint Swelling,Where is the swelling located?,_,Shoulder,,233
+,,,Wrist,,234
+,,,Fingers,,235
+,What is the size of swelling?,_,_describe,,236
+,How has the swelling changed?,_ ,Remains the same,,237
+,,,Increasing,,238
+,,,Decreasing,,239
+,How long has it been there for?,_ days,_days,,240
+Arm Swelling,Where is the swelling located?,_,Arm,,241
+,,,Forearm,,242
+,,,Fingers,,243
+,What is the size of swelling?,_,_describe,,244
+,How has the swelling changed?,_ ,Remains the same,,245
+,,,Increasing,,246
+,,,Decreasing,,247
+,How long has it been there for?,_ days,_days,,248
+Leg Swelling,Where is the swelling located?,_,Thigh,,249
+,,,Leg,,250
+,,,Foot,,251
+,What is the size of swelling?,_,_describe,,252
+,How has the swelling changed?,_ ,Remains the same,,253
+,,,Increasing,,254
+,,,Decreasing,,255
+,How long has it been there for?,_ days,_days,,256
+Chest Swelling,Where is the swelling located?,_,Right,,257
+,,,Left,,258
+,,,Both,,259
+,What is the size of swelling?,_,_describe,,260
+,How has the swelling changed?,_ ,Remains the same,,261
+,,,Increasing,,262
+,,,Decreasing,,263
+,How long has it been there for?,_ days,_days,,264
+Abdominal Swelling,Where is the swelling located?,_,Upper Right,,265
+,,,Upper Center,,266
+,,,Upper Left,,267
+,,,Middle Right,,268
+,,,Middle Center,,269
+,,,Middle Left,,270
+,,,Lower Right,,271
+,,,Lower Center,,272
+,,,Lower Left,,273
+,,,All Over,,274
+,What is the size of swelling?,_,_describe,,275
+,How has the swelling changed?,_ ,Remains the same,,276
+,,,Increasing,,277
+,,,Decreasing,,278
+,How long has it been there for?,_ days,_days,,279
+Breast Swelling,Where is the swelling located?,_,Right,,280
+,,,Left,,281
+,,,Both,,282
+,What is the size of swelling?,_,_describe,,283
+,How has the swelling changed?,_ ,Remains the same,,284
+,,,Increasing,,285
+,,,Decreasing,,286
+,How long has it been there for?,_ days,_days,,287
+Scrotal Swelling,Where is the swelling located?,_,Right,,288
+,,,Left,,289
+,,,Both,,290
+,What is the size of swelling?,_,_describe,,291
+,How has the swelling changed?,_ ,Remains the same,,292
+,,,Increasing,,293
+,,,Decreasing,,294
+,How long has it been there for?,_ days,_days,,295
+Urine Passage Swelling,How has the swelling changed?,_ ,Remains the same,,296
+,,,Increasing,,297
+,,,Decreasing,,298
+,How long has it been there for?,_ days,_days,,299
+Difficulty in Breathing,When is there difficulty breathing?,_,At rest,,304
+,,,On exertion,,305
+,,,Relieved on sitting up,,306
+,,,Worse on lying down,,307
+,,,Worse on lying down,,308
+,How long has it been there for?,_ days,_days,,309
+Fever,How long has it been there for?,_ days,_days,,310
+,How regular is the fever?,_,Every day,,311
+,,,Some days,,312
+,,,Part of the day (morning),,313
+,,,Part of the day (night),,314
+,,,Part of the day (other),,315
+,Are there shivers with the fever?,_ shivers,Yes,,316
+,,,No,,317
+Diarrhoea,How many occurences of diarrhoea per day?,_ episodes per day,_frequency,,318
+,How long has it been there for?,_ days,_days,,319
+,Is there blood present?,_ bloody stool,Yes,,320
+,,,No,,321
+,What is the quality of stool?,_ stool,Watery,,322
+,,,Soft,,323
+,,,Ill-formed,,324
+Vomiting,How many occurences of vomiting per day?,_ episodes per day,_frequency,,325
+,Is there blood present?,_ bloody vomitus,Yes,,326
+,,,No,,327
+,How long has it been there for?,_ days,_days,,328
+Eye Problem,Is there vision impairment?,_,Yes,,329
+,,,No,,330
+,Where is the injury?,_,Right,,331
+,,,Left,,332
+,If due to injury; how long ago was injury?,_ days,_days,,333
+,If due to injury; how did injury occur?,_,_describe,,334
+Ear Problem,Is there pain in the ear?,_ ear pain,Yes,,335
+,,,No,,336
+,Where is the pain in the ear?,_,Left,,337
+,,,Right,,338
+,,,Both,,339
+,Is there discharge from the ear?,_ discharge,Yes,,340
+,,,No,,341
+,Which ear has discharge?,_ ear discharge,Right,,342
+,,,Left,,343
+,,,Both,,344
+,,,Neither,,345
+,How long has there been difficulty hearing?,_ days,_ days,,346
+Dizziness,How often is there dizziness?,_,Always,,347
+,,,Sometimes,,348
+,Which of the following positions worsen dizziness?,_ exacerbates,Lying down,,349
+,,,Standing up,,350
+,,,Moving neck,,351
+,,,Opening eyes,,352
+Indigestion/Dyspepsia,Is there a burning sensation after eating?,_,Yes,,353
+,,,No,,354
+Yellowing discoloration of urine,How long as the urine been more yellow than normal?,_ days,_ days,,355
+Skin Rash,How long has the rash been bothersome for?,_ days,_ days,,356
+,Where is the rash located?,_,_describe,,357
+,Is the rash itchy?,_ itchiness,Yes,,358
+,,,No,,359
+Weakness,Is there weakness; fainting; or unnatural exhaustion?,_ general weakness,Yes,,360
+,,,No,,361
+Bleeding with Stool,What is the color of the stool?,_ stool,Bright-red,,362
+,,,Dark red,,363
+,How much bleeding is there?,_,Lot,,364
+,,,Drops,,365
+Period Problem,How much bleeding is there?,_,Excessive bleeding,,366
+,,,Very little bleeding,,367
+,What is the consistency of periods?,_ period cycle,Regular,,368
+,,,Too often,,369
+,,,Delayed,,370
+,Is there a white discharge?,_ white discharge,Yes,,371
+,,,No,,372
+Injury,How was the injury sustained?,_,Fall,,373
+,,,Hit by vehicle,,374
+,,,Crushed in machine,,375
+,,,Cut,,376
+,,,Violence,,377
+,When was the injury sustained?,_ days,_ days,,378
+,What are the lasting affects?,_,Cannot walk,,379
+,,,Cannot move limb,,380
+,Is there bleeding?,_ bleeding,Yes,,381
+,,,No,,382
+Pregnancy,How far along is the pregnancy?,_ days,_ days,,383
+,What prenatal care has been provided?,_,_describe,,384
+,What is the complaint?,_,_describe,,385

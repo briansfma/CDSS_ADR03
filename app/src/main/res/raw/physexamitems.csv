@@ -1,0 +1,30 @@
+Location,Item,Question,Layer,Possible Ans,"Picture/Audio/App (P/V/A/S/E)",History Note,E.g./Job aid
+Chest,Cardiac sounds,Please record patient's heart sound,1,OK,S,_,
+,ECG,Please take patient's ECG,2,OK,E,_,
+Skin,Jaundice,Does the skin have a yellowish-tint?,1,Yes;No,P,_ jaundice,jaundiceexample
+,Bruising,Are there bruises visible on?,2,Yes;No,P,_ bruising,
+Neck,Centrality of trachea,Is the trachea centered?,1,Yes;No,P,_ trachea deviation,trachealdeviationexample
+,Cervical lymphnodes,Are the lymphnodes inflammed?,2,Yes;No,,_ inflammed lympnodes,
+Leg and knees,Leg oedema,Is there leg oedema?,1,Yes;No,P,_ leg oedema,legedemaexample
+,Redness,Is there redness present?,2,Yes;No,P,_ leg redness,
+Eyes,Conjunctivitis,Is there pink-eye?,1,Yes;No,P,_ pink eye,pinkeyeexample
+,Redness,Is there visible redness near the eyes?,2,Yes;No,P,_ eye redness,
+,Burning,Is there a burning sensation in the eyes?,3,Yes;No,,_ eye burning,
+,Swollen,Do the eyes look swollen or inflammed?,4,Yes;No,P,_ eye inflammation,
+,Dry eyes,Does the patient report dry eyes?,5,Yes;No,,_ dry eyes,
+Hands,Spoon nails,Are there nails which are spoon-shaped?,1,Yes;No,P,_ koilonychia,spoonnailsexample
+,Clubbing,Are the finger tips rounded?,2,Yes;No,P,_ clubbing,clubbingexample
+,Tremor,Is the hand shaking in a repetitive manner?,3,Yes;No,V,_ tremor,
+Abdomen,Scars,Are there visible scars?,1,Yes;No,P,_ abdominal scarring,
+,Distension,Is there abdominal bloating?,2,Yes;No,P,_ abdominal distension,
+Hair,Scalp hair loss ,Is there apparent hair loss?,1,Yes;No,P,_ scalp hair loss,
+,Dry/Greasy,Please describe the hair quality,2,Regular;Dry;Greasy,,_ hair,
+Back,Sacral oedema,Is there oedema on the patient's back?,1,Yes;No,P,_ sacral oedema,
+,Vertabrae alignment,Is the spine well-alligned?,2,Yes;No,P,_ vertebral misalignment,
+Foot,Pedal oedema,Is there oedema on the foot?,1,Yes;No,P,_ pedal oedema,ankleedemaexample
+,Joint pain,Is there joint pain present?,2,Yes;No,,_ pedal joint pain,
+Thinking and Balance,Gait,Does the patient report balance issues?,1,Yes;No,,_ gait instability,
+,Headache,Does the patient report painful headaches?,2,Yes;No,,_ headaches,
+,Sleep,Does the patient report irregular sleep habits?,3,Yes;No,,_ irregular sleep,
+Nondescript,Fragility fractures,Please describe fractured areas.,1,None;Vertebrae;Neck of femur;Distal radius;Other,,_ fracture,
+,Ankle oedema,Is there oedema on the ankle?,2,Yes;No,,_ ankle oedema,ankleedemaexample

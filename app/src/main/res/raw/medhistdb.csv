@@ -1,0 +1,28 @@
+Complaint,Fixed questions (Set 1),Possible answers
+Diabetes,How long?,[please enter duration]
+,Current medications?,[Touch to Enter]
+,Last measured Blood Sugar and HbA1C,[Touch to Answer]
+MI,When did it occur?,[please enter date]
+,How was it treated?,Surgical;Angioplasty;Medical
+,Current medication?,[Touch to Enter]
+Hypertension,When were you diagnosed?,[please enter date]
+,Current medication?,[Touch to Enter]
+CVA,When did it occur?,[please enter date]
+,How was it treated?,Surgical;Medical
+,Current medication?,[Touch to Enter]
+Asthma,When were you diagnosed?,[please enter date]
+,Current medication?,[Touch to Enter]
+Alcohol,How frequently do you drink alcohol?,[please enter how many times/day]
+Smoking,How frequently do you smoke?,[please enter how many times/day]
+,For how long have you been smoking?,[please enter duration]
+Previous Operation,Where was the operation?,Head (Eyes/Ears/Nose/Mouth)
+,,Neck
+,,Chest (Heart/Lung/Breast)
+,,Abdomen (Stomach/Liver/Bile/Kidney/Colon)
+,,Back/Spine
+,,Hip
+,,Arms (Elbows/Wrist)
+,,Legs (Knees/Feet)
+,,Prostate
+,,C-Section
+,,Hysterectomy
